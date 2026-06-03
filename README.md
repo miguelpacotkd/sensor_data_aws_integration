@@ -1,2 +1,4 @@
 # sensor_data_aws_integration
 Integration of AWS services (S3, Glue, Athena) on the creation of a pipeline for analysis of simulated temperature sensor data. Using a Python script to simulate data including temperature, humidity, pressure, vibration and power, we later load this data into a S3 bucket, use a glue crawler to extract it and create some queries in Athena in order to compute averages, identify trends and anomalies. 
+
+Built as a learning project.
